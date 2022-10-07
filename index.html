@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  </head>
+  <body>
+    <div class="container">
+      <div class="top-bar">
+        <i class='bx bx-heart'></i>
+        <span>Now Playing</span>
+        <i class='bx bx-plus'></i>
+      </div>
+
+      <div class="img-area">
+        <img src="" alt="">
+      </div>
+
+      <div class="song-details">
+        <p class="name"></p>
+        <p class="artist"></p>
+      </div>
+
+      <div class="progress-area">
+
+        <div class="progress-bar">
+          <audio id="main-audio" src=""></audio>
+        </div>
+        <div class="song-timer">
+          <span class="current-time">0.00</span>
+          <span class="max-duration"></span>
+        </div>
+        <audio id="main-audio" src=""></audio>
+      </div>
+
+      <div class="controls">
+        <!-- <i id="repeat-plist" class='bx bx-repeat'></i> -->
+        <!-- <i id="repeat-plist" class="material-icons">repeat_one</i> -->
+        <i id="repeat-plist" class='bx bx-shuffle'></i>
+        <i id="prev" class='bx bx-rewind' ></i>
+
+        <div class="play-pause">
+          <i class='bx bx-play' ></i>
+        </div>
+
+        <i id="next" class='bx bx-fast-forward'></i>
+        <!-- <i id="more-music" class="material-icons">queue_music</i> -->
+        <i id="more-music" class='bx bxs-add-to-queue'></i>
+      </div>
+
+      <div class="music-list">
+        <div class="header">
+          <div class="row">
+            <!-- <i class="material-icons">queue_music</i> -->
+            <i class='bx bxs-add-to-queue'></i>
+            <span>Music List</span>
+          </div>
+          <i id="close" class='bx bx-x'></i>
+        </div>
+        <ul>
+
+        </ul>
+      </div>
+    </div>
+
+
+
+
+
+
+
+    <script src="js/music-list.js"></script>
+    <script src="js/script.js"></script>
+<script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+  </body>
+</html>
